@@ -36,3 +36,7 @@ bank.authenticate()
   console.log(accounts);
 });
 ```
+Analog gibt es noch
+```js
+bank.post('/path', { param1: 123 });
+```
