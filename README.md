@@ -15,3 +15,22 @@ USERNAME=username PASSWORD=password ./set-password.sh
 ```
 node demo.js
 ```
+
+# HOWTO Use (demo.js):
+
+```
+var bank = require('./index'),
+  _ = require('lodash');
+
+if (!process.env.SSL_KEY) {
+  require('dotenv').config();
+}
+
+bank.authenticate()
+.then(() => {
+  return bank.get("/accounts");
+})
+.then(function(accounts) {
+  console.log(accounts);
+})
+```
