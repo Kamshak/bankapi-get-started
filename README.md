@@ -18,7 +18,7 @@ node demo.js
 
 # HOWTO Use (demo.js):
 
-```
+```js
 var bank = require('./index'),
   _ = require('lodash');
 
