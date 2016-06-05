@@ -5,11 +5,13 @@
 
 2) Kopiert die Key Dateien von http://pbs-certificates.hack.institute/ in den Ordner (HACK*.key, ou=...)
 
-3) Das Password muss zu Anfang einmal geändert werden: (username und password sind zu ersetzen mit den Passwörtern, die man von den Organisatoren bekommt)
+3) Das Password muss zu Anfang einmal geändert werden (username und password sind zu ersetzen mit den Passwörtern, die man von den Organisatoren bekommt, neues_pw ist das neue Passwort):
 ```
 chmod a+x set-password.sh
-USERNAME=username PASSWORD=password ./set-password.sh 
+USERNAME=username PASSWORD=password NEW_PASSWORD=neues_pw ./set-password.sh 
 ```
+
+Das neue Pass
 
 4) Die API ist bereit zur Nutzung:
 ```
