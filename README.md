@@ -32,5 +32,5 @@ bank.authenticate()
 })
 .then(function(accounts) {
   console.log(accounts);
-})
+});
 ```
