@@ -11,7 +11,6 @@ chmod a+x set-password.sh
 USERNAME=username PASSWORD=password NEW_PASSWORD=neues_pw ./set-password.sh 
 ```
 
-Das neue Pass
 
 4) Die API ist bereit zur Nutzung:
 ```
